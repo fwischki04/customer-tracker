@@ -23,6 +23,5 @@ customers[0].email = "drizzydrake@gmail.come";
 
 customers[1].purchases.push("Iphone");
 
-customers.forEach(function (customer) {
-  console.log(
-    `Name: ${customer.name}, Email: ${customer.email}, Total Purchases: ${customer.purchases.length}`);});
+customers.forEach((customer) => {
+  console.log(`Name: ${customer.name}, Email: ${customer.email}, Total Purchases: ${customer.purchases.length}`);});
